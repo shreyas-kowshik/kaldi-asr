@@ -1,0 +1,1008 @@
+# lattice-best-path --lm-scale=8 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/8.tra 
+# Started at Mon May 30 15:35:39 IST 2022
+#
+lattice-best-path --lm-scale=8 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/8.tra 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_0, best cost 63.88 + 4001.69 = 4065.57 over 37 frames.
+yweweler_0_yweweler_0 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_1, best cost 61.5527 + 3298.49 = 3360.04 over 31 frames.
+yweweler_0_yweweler_1 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_10, best cost 61.5228 + 3918.1 = 3979.63 over 36 frames.
+yweweler_0_yweweler_10 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_11, best cost 62.2829 + 3521.93 = 3584.21 over 35 frames.
+yweweler_0_yweweler_11 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_12, best cost 75.4155 + 3718.73 = 3794.15 over 37 frames.
+yweweler_0_yweweler_12 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_13, best cost 64.7447 + 3935.52 = 4000.26 over 41 frames.
+yweweler_0_yweweler_13 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_14, best cost 61.9115 + 4069.2 = 4131.11 over 41 frames.
+yweweler_0_yweweler_14 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_15, best cost 67.4613 + 3847.24 = 3914.7 over 41 frames.
+yweweler_0_yweweler_15 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_16, best cost 63.5677 + 3375.28 = 3438.85 over 34 frames.
+yweweler_0_yweweler_16 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_17, best cost 63.8561 + 3748.57 = 3812.42 over 38 frames.
+yweweler_0_yweweler_17 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_18, best cost 66.0174 + 3928.58 = 3994.6 over 40 frames.
+yweweler_0_yweweler_18 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_19, best cost 69.5771 + 4338.5 = 4408.08 over 45 frames.
+yweweler_0_yweweler_19 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_2, best cost 61.2952 + 3345.05 = 3406.34 over 33 frames.
+yweweler_0_yweweler_2 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_20, best cost 61.0404 + 3137.02 = 3198.06 over 32 frames.
+yweweler_0_yweweler_20 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_21, best cost 62.3818 + 3289.69 = 3352.07 over 33 frames.
+yweweler_0_yweweler_21 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_22, best cost 60.9 + 3160.72 = 3221.62 over 32 frames.
+yweweler_0_yweweler_22 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_23, best cost 60.1862 + 3139.91 = 3200.09 over 31 frames.
+yweweler_0_yweweler_23 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_24, best cost 62.0847 + 3371.12 = 3433.21 over 36 frames.
+yweweler_0_yweweler_24 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_25, best cost 62.5667 + 3594.8 = 3657.37 over 37 frames.
+yweweler_0_yweweler_25 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_26, best cost 62.0974 + 3480.6 = 3542.7 over 34 frames.
+yweweler_0_yweweler_26 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_27, best cost 61.2021 + 3384.31 = 3445.51 over 34 frames.
+yweweler_0_yweweler_27 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_28, best cost 67.1526 + 4120.71 = 4187.86 over 40 frames.
+yweweler_0_yweweler_28 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_29, best cost 63.8605 + 3681.23 = 3745.09 over 36 frames.
+yweweler_0_yweweler_29 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_3, best cost 62.4378 + 3499.52 = 3561.95 over 34 frames.
+yweweler_0_yweweler_3 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_30, best cost 62.1669 + 3902.73 = 3964.9 over 38 frames.
+yweweler_0_yweweler_30 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_31, best cost 66.1222 + 3103.85 = 3169.97 over 31 frames.
+yweweler_0_yweweler_31 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_32, best cost 63.1779 + 3916.1 = 3979.28 over 34 frames.
+yweweler_0_yweweler_32 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_33, best cost 65.3508 + 4549.32 = 4614.67 over 47 frames.
+yweweler_0_yweweler_33 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_34, best cost 58.5468 + 4003.82 = 4062.37 over 35 frames.
+yweweler_0_yweweler_34 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_35, best cost 52.713 + 4032.4 = 4085.12 over 37 frames.
+yweweler_0_yweweler_35 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_36, best cost 58.9276 + 4688.26 = 4747.18 over 43 frames.
+yweweler_0_yweweler_36 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_37, best cost 61.3815 + 3657.17 = 3718.56 over 36 frames.
+yweweler_0_yweweler_37 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_38, best cost 61.9053 + 3837.39 = 3899.3 over 39 frames.
+yweweler_0_yweweler_38 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_39, best cost 94.8971 + 4272.82 = 4367.72 over 42 frames.
+yweweler_0_yweweler_39 zero four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_4, best cost 59.5855 + 3157.03 = 3216.62 over 30 frames.
+yweweler_0_yweweler_4 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_40, best cost 71.3101 + 4498.8 = 4570.11 over 43 frames.
+yweweler_0_yweweler_40 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_41, best cost 58.0645 + 3098.84 = 3156.9 over 31 frames.
+yweweler_0_yweweler_41 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_42, best cost 66.3266 + 4429.45 = 4495.77 over 41 frames.
+yweweler_0_yweweler_42 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_43, best cost 58.493 + 3173.67 = 3232.16 over 32 frames.
+yweweler_0_yweweler_43 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_44, best cost 57.6519 + 3136.14 = 3193.8 over 30 frames.
+yweweler_0_yweweler_44 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_45, best cost 60.985 + 3400.96 = 3461.95 over 33 frames.
+yweweler_0_yweweler_45 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_46, best cost 55.1046 + 2732.88 = 2787.99 over 27 frames.
+yweweler_0_yweweler_46 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_47, best cost 62.1411 + 3298.78 = 3360.92 over 33 frames.
+yweweler_0_yweweler_47 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_48, best cost 62.3533 + 3541.37 = 3603.72 over 37 frames.
+yweweler_0_yweweler_48 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_49, best cost 62.8121 + 3566.9 = 3629.71 over 37 frames.
+yweweler_0_yweweler_49 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_5, best cost 66.5365 + 3959.07 = 4025.61 over 38 frames.
+yweweler_0_yweweler_5 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_6, best cost 61.5518 + 3918.23 = 3979.79 over 38 frames.
+yweweler_0_yweweler_6 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_7, best cost 63.7724 + 4195.89 = 4259.66 over 37 frames.
+yweweler_0_yweweler_7 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_8, best cost 62.5632 + 3290.18 = 3352.74 over 32 frames.
+yweweler_0_yweweler_8 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_0_yweweler_9, best cost 75.3597 + 3491.33 = 3566.69 over 34 frames.
+yweweler_0_yweweler_9 zero 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_0, best cost 63.2507 + 4032.84 = 4096.09 over 40 frames.
+yweweler_1_yweweler_0 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_1, best cost 53.7251 + 1886.38 = 1940.11 over 20 frames.
+yweweler_1_yweweler_1 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_10, best cost 58.517 + 2620.06 = 2678.57 over 26 frames.
+yweweler_1_yweweler_10 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_11, best cost 58.6495 + 3082.16 = 3140.8 over 32 frames.
+yweweler_1_yweweler_11 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_12, best cost 58.5842 + 3401.8 = 3460.38 over 35 frames.
+yweweler_1_yweweler_12 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_13, best cost 58.4611 + 3167.12 = 3225.58 over 32 frames.
+yweweler_1_yweweler_13 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_14, best cost 56.4023 + 2594.03 = 2650.44 over 27 frames.
+yweweler_1_yweweler_14 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_15, best cost 65.0807 + 4822.27 = 4887.35 over 49 frames.
+yweweler_1_yweweler_15 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_16, best cost 58.285 + 3084.07 = 3142.36 over 33 frames.
+yweweler_1_yweweler_16 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_17, best cost 56.7733 + 2632.83 = 2689.6 over 28 frames.
+yweweler_1_yweweler_17 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_18, best cost 58.0324 + 3128.74 = 3186.77 over 33 frames.
+yweweler_1_yweweler_18 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_19, best cost 59.0573 + 3020.51 = 3079.56 over 33 frames.
+yweweler_1_yweweler_19 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_2, best cost 62.2319 + 2989.2 = 3051.43 over 32 frames.
+yweweler_1_yweweler_2 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_20, best cost 62.8999 + 3241.22 = 3304.12 over 35 frames.
+yweweler_1_yweweler_20 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_21, best cost 57.607 + 2916.24 = 2973.85 over 31 frames.
+yweweler_1_yweweler_21 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_22, best cost 57.1747 + 2718.12 = 2775.3 over 29 frames.
+yweweler_1_yweweler_22 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_23, best cost 61.1708 + 2907.34 = 2968.51 over 31 frames.
+yweweler_1_yweweler_23 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_24, best cost 57.1328 + 2696.63 = 2753.76 over 29 frames.
+yweweler_1_yweweler_24 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_25, best cost 55.5809 + 2311.02 = 2366.6 over 24 frames.
+yweweler_1_yweweler_25 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_26, best cost 58.7762 + 3313.31 = 3372.09 over 36 frames.
+yweweler_1_yweweler_26 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_27, best cost 56.0681 + 2484.04 = 2540.11 over 26 frames.
+yweweler_1_yweweler_27 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_28, best cost 57.0182 + 2294.07 = 2351.09 over 26 frames.
+yweweler_1_yweweler_28 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_29, best cost 57.8435 + 2843.52 = 2901.37 over 32 frames.
+yweweler_1_yweweler_29 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_3, best cost 60.7418 + 2898.67 = 2959.41 over 29 frames.
+yweweler_1_yweweler_3 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_30, best cost 57.5529 + 2910.92 = 2968.47 over 32 frames.
+yweweler_1_yweweler_30 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_31, best cost 59.3497 + 3374.62 = 3433.97 over 37 frames.
+yweweler_1_yweweler_31 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_32, best cost 56.137 + 2483.72 = 2539.86 over 25 frames.
+yweweler_1_yweweler_32 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_33, best cost 63.1648 + 3804.9 = 3868.06 over 41 frames.
+yweweler_1_yweweler_33 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_34, best cost 57.5438 + 2781.7 = 2839.25 over 31 frames.
+yweweler_1_yweweler_34 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_35, best cost 56.7647 + 2565.41 = 2622.17 over 23 frames.
+yweweler_1_yweweler_35 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_36, best cost 61.1126 + 3434.83 = 3495.94 over 33 frames.
+yweweler_1_yweweler_36 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_37, best cost 66.2747 + 4579.14 = 4645.42 over 45 frames.
+yweweler_1_yweweler_37 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_38, best cost 58.882 + 3272.86 = 3331.74 over 35 frames.
+yweweler_1_yweweler_38 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_39, best cost 58.2094 + 3222.03 = 3280.23 over 31 frames.
+yweweler_1_yweweler_39 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_4, best cost 56.8771 + 2746.78 = 2803.66 over 28 frames.
+yweweler_1_yweweler_4 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_40, best cost 59.4989 + 3409.13 = 3468.63 over 34 frames.
+yweweler_1_yweweler_40 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_41, best cost 58.9827 + 3907.32 = 3966.31 over 39 frames.
+yweweler_1_yweweler_41 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_42, best cost 62.432 + 3494.54 = 3556.97 over 33 frames.
+yweweler_1_yweweler_42 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_43, best cost 58.7407 + 3114.59 = 3173.34 over 33 frames.
+yweweler_1_yweweler_43 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_44, best cost 56.5635 + 2810.8 = 2867.37 over 29 frames.
+yweweler_1_yweweler_44 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_45, best cost 59.5928 + 3163.29 = 3222.89 over 35 frames.
+yweweler_1_yweweler_45 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_46, best cost 63.0785 + 3473.26 = 3536.34 over 37 frames.
+yweweler_1_yweweler_46 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_47, best cost 58.6221 + 3327.12 = 3385.75 over 33 frames.
+yweweler_1_yweweler_47 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_48, best cost 63.0585 + 3799.1 = 3862.16 over 39 frames.
+yweweler_1_yweweler_48 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_49, best cost 59.69 + 3575.14 = 3634.83 over 39 frames.
+yweweler_1_yweweler_49 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_5, best cost 58.3504 + 2904.46 = 2962.81 over 31 frames.
+yweweler_1_yweweler_5 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_6, best cost 55.9492 + 2448.68 = 2504.63 over 24 frames.
+yweweler_1_yweweler_6 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_7, best cost 56.0438 + 2422.31 = 2478.36 over 25 frames.
+yweweler_1_yweweler_7 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_8, best cost 56.7785 + 2554.19 = 2610.97 over 24 frames.
+yweweler_1_yweweler_8 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_1_yweweler_9, best cost 55.7171 + 2429.36 = 2485.08 over 25 frames.
+yweweler_1_yweweler_9 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_0, best cost 51.548 + 2710.87 = 2762.42 over 25 frames.
+yweweler_2_yweweler_0 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_1, best cost 60.3806 + 2896.22 = 2956.6 over 28 frames.
+yweweler_2_yweweler_1 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_10, best cost 56.9705 + 2563.11 = 2620.08 over 25 frames.
+yweweler_2_yweweler_10 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_11, best cost 57.8557 + 2852.83 = 2910.68 over 26 frames.
+yweweler_2_yweweler_11 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_12, best cost 51.5426 + 2567.13 = 2618.67 over 25 frames.
+yweweler_2_yweweler_12 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_13, best cost 51.5253 + 2624.98 = 2676.5 over 25 frames.
+yweweler_2_yweweler_13 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_14, best cost 56.6934 + 2870.24 = 2926.94 over 29 frames.
+yweweler_2_yweweler_14 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_15, best cost 60.0482 + 2733.88 = 2793.93 over 27 frames.
+yweweler_2_yweweler_15 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_16, best cost 56.7881 + 2911.17 = 2967.96 over 30 frames.
+yweweler_2_yweweler_16 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_17, best cost 60.3094 + 2822.64 = 2882.95 over 28 frames.
+yweweler_2_yweweler_17 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_18, best cost 55.7819 + 2753.16 = 2808.94 over 28 frames.
+yweweler_2_yweweler_18 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_19, best cost 52.3802 + 2393.93 = 2446.31 over 23 frames.
+yweweler_2_yweweler_19 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_2, best cost 52.796 + 2346.73 = 2399.53 over 22 frames.
+yweweler_2_yweweler_2 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_20, best cost 52.0326 + 2681.22 = 2733.26 over 27 frames.
+yweweler_2_yweweler_20 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_21, best cost 55.928 + 2924.92 = 2980.85 over 29 frames.
+yweweler_2_yweweler_21 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_22, best cost 55.5312 + 2717.39 = 2772.92 over 28 frames.
+yweweler_2_yweweler_22 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_23, best cost 56.462 + 2748.81 = 2805.27 over 28 frames.
+yweweler_2_yweweler_23 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_24, best cost 52.5693 + 2778.42 = 2830.99 over 27 frames.
+yweweler_2_yweweler_24 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_25, best cost 54.9493 + 2367.64 = 2422.59 over 22 frames.
+yweweler_2_yweweler_25 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_26, best cost 57.1231 + 2898.21 = 2955.34 over 30 frames.
+yweweler_2_yweweler_26 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_27, best cost 57.077 + 3177.64 = 3234.72 over 31 frames.
+yweweler_2_yweweler_27 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_28, best cost 61.0092 + 3114.67 = 3175.68 over 33 frames.
+yweweler_2_yweweler_28 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_29, best cost 53.5632 + 3449.8 = 3503.37 over 33 frames.
+yweweler_2_yweweler_29 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_3, best cost 55.6805 + 2709.55 = 2765.23 over 26 frames.
+yweweler_2_yweweler_3 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_30, best cost 60.3676 + 2848.57 = 2908.94 over 27 frames.
+yweweler_2_yweweler_30 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_31, best cost 60.5123 + 2790.14 = 2850.65 over 26 frames.
+yweweler_2_yweweler_31 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_32, best cost 59.956 + 2981.79 = 3041.74 over 29 frames.
+yweweler_2_yweweler_32 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_33, best cost 61.1191 + 2963.03 = 3024.15 over 28 frames.
+yweweler_2_yweweler_33 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_34, best cost 57.2946 + 3152.14 = 3209.43 over 31 frames.
+yweweler_2_yweweler_34 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_35, best cost 58.0126 + 2868.29 = 2926.3 over 26 frames.
+yweweler_2_yweweler_35 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_36, best cost 62.8951 + 4243.16 = 4306.06 over 40 frames.
+yweweler_2_yweweler_36 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_37, best cost 53.3652 + 3729.13 = 3782.5 over 36 frames.
+yweweler_2_yweweler_37 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_38, best cost 61.633 + 3694.5 = 3756.13 over 37 frames.
+yweweler_2_yweweler_38 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_39, best cost 61.6893 + 3414.19 = 3475.88 over 33 frames.
+yweweler_2_yweweler_39 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_4, best cost 57.0183 + 2733.93 = 2790.95 over 27 frames.
+yweweler_2_yweweler_4 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_40, best cost 52.5843 + 3170.13 = 3222.72 over 32 frames.
+yweweler_2_yweweler_40 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_41, best cost 56.8232 + 3048.05 = 3104.87 over 29 frames.
+yweweler_2_yweweler_41 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_42, best cost 51.8541 + 2542.24 = 2594.1 over 24 frames.
+yweweler_2_yweweler_42 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_43, best cost 51.7849 + 2626.89 = 2678.67 over 26 frames.
+yweweler_2_yweweler_43 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_44, best cost 51.9088 + 2798.19 = 2850.1 over 27 frames.
+yweweler_2_yweweler_44 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_45, best cost 51.6988 + 2506.1 = 2557.8 over 23 frames.
+yweweler_2_yweweler_45 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_46, best cost 56.5736 + 3312.91 = 3369.49 over 31 frames.
+yweweler_2_yweweler_46 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_47, best cost 51.8447 + 2285.43 = 2337.28 over 23 frames.
+yweweler_2_yweweler_47 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_48, best cost 57.1512 + 3062.47 = 3119.62 over 30 frames.
+yweweler_2_yweweler_48 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_49, best cost 55.7417 + 2943.23 = 2998.97 over 28 frames.
+yweweler_2_yweweler_49 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_5, best cost 52.7141 + 2883.41 = 2936.12 over 30 frames.
+yweweler_2_yweweler_5 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_6, best cost 57.2031 + 2865.98 = 2923.19 over 29 frames.
+yweweler_2_yweweler_6 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_7, best cost 57.9665 + 3049.44 = 3107.4 over 31 frames.
+yweweler_2_yweweler_7 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_8, best cost 55.9658 + 2669.04 = 2725.01 over 25 frames.
+yweweler_2_yweweler_8 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_2_yweweler_9, best cost 52.0541 + 2584.07 = 2636.13 over 25 frames.
+yweweler_2_yweweler_9 two 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_0, best cost 58.9494 + 3761.77 = 3820.72 over 37 frames.
+yweweler_3_yweweler_0 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_1, best cost 53.4281 + 2947.4 = 3000.83 over 29 frames.
+yweweler_3_yweweler_1 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_10, best cost 56.1132 + 3143.92 = 3200.03 over 31 frames.
+yweweler_3_yweweler_10 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_11, best cost 58.7981 + 3779.61 = 3838.41 over 38 frames.
+yweweler_3_yweweler_11 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_12, best cost 67.8975 + 3780.15 = 3848.05 over 37 frames.
+yweweler_3_yweweler_12 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_13, best cost 58.3277 + 3660.16 = 3718.48 over 36 frames.
+yweweler_3_yweweler_13 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_14, best cost 63.955 + 3011.17 = 3075.13 over 29 frames.
+yweweler_3_yweweler_14 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_15, best cost 52.1279 + 2026.63 = 2078.76 over 22 frames.
+yweweler_3_yweweler_15 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_16, best cost 57.7293 + 3331.15 = 3388.88 over 33 frames.
+yweweler_3_yweweler_16 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_17, best cost 58.361 + 3615.92 = 3674.29 over 37 frames.
+yweweler_3_yweweler_17 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_18, best cost 58.3939 + 3664.19 = 3722.58 over 34 frames.
+yweweler_3_yweweler_18 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_19, best cost 58.5542 + 3972.99 = 4031.55 over 38 frames.
+yweweler_3_yweweler_19 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_2, best cost 52.2161 + 2172.39 = 2224.61 over 23 frames.
+yweweler_3_yweweler_2 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_20, best cost 54.9391 + 2623.97 = 2678.91 over 26 frames.
+yweweler_3_yweweler_20 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_21, best cost 62.2253 + 4220.33 = 4282.56 over 40 frames.
+yweweler_3_yweweler_21 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_22, best cost 55.5731 + 2545.57 = 2601.14 over 26 frames.
+yweweler_3_yweweler_22 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_23, best cost 56.4109 + 3184.73 = 3241.14 over 32 frames.
+yweweler_3_yweweler_23 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_24, best cost 57.6725 + 2548.72 = 2606.39 over 26 frames.
+yweweler_3_yweweler_24 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_25, best cost 56.3944 + 3055.35 = 3111.74 over 29 frames.
+yweweler_3_yweweler_25 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_26, best cost 59.7995 + 3217.6 = 3277.4 over 31 frames.
+yweweler_3_yweweler_26 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_27, best cost 57.3238 + 2855.75 = 2913.07 over 27 frames.
+yweweler_3_yweweler_27 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_28, best cost 52.3708 + 2587.72 = 2640.09 over 26 frames.
+yweweler_3_yweweler_28 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_29, best cost 55.4578 + 2500.08 = 2555.53 over 26 frames.
+yweweler_3_yweweler_29 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_3, best cost 58.1075 + 3802.48 = 3860.59 over 38 frames.
+yweweler_3_yweweler_3 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_30, best cost 56.9866 + 4087.28 = 4144.26 over 39 frames.
+yweweler_3_yweweler_30 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_31, best cost 52.1764 + 1858.97 = 1911.14 over 19 frames.
+yweweler_3_yweweler_31 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_32, best cost 56.1549 + 2508.97 = 2565.12 over 26 frames.
+yweweler_3_yweweler_32 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_33, best cost 58.3265 + 3312.2 = 3370.53 over 32 frames.
+yweweler_3_yweweler_33 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_34, best cost 60.914 + 3886.47 = 3947.39 over 37 frames.
+yweweler_3_yweweler_34 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_35, best cost 63.9454 + 3272.82 = 3336.76 over 33 frames.
+yweweler_3_yweweler_35 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_36, best cost 57.6308 + 2617.12 = 2674.75 over 26 frames.
+yweweler_3_yweweler_36 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_37, best cost 59.4867 + 3818.63 = 3878.11 over 39 frames.
+yweweler_3_yweweler_37 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_38, best cost 55.9755 + 2861 = 2916.98 over 26 frames.
+yweweler_3_yweweler_38 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_39, best cost 58.3437 + 2934.19 = 2992.54 over 27 frames.
+yweweler_3_yweweler_39 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_4, best cost 59.0116 + 3950.73 = 4009.74 over 38 frames.
+yweweler_3_yweweler_4 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_40, best cost 97.6831 + 6268.75 = 6366.44 over 60 frames.
+yweweler_3_yweweler_40 three eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_41, best cost 54.0258 + 2124.78 = 2178.8 over 22 frames.
+yweweler_3_yweweler_41 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_42, best cost 59.579 + 2737.88 = 2797.46 over 28 frames.
+yweweler_3_yweweler_42 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_43, best cost 57.6258 + 3115.46 = 3173.08 over 32 frames.
+yweweler_3_yweweler_43 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_44, best cost 57.1731 + 2234.86 = 2292.04 over 24 frames.
+yweweler_3_yweweler_44 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_45, best cost 58.6434 + 3396.16 = 3454.8 over 32 frames.
+yweweler_3_yweweler_45 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_46, best cost 52.2841 + 2266.13 = 2318.41 over 24 frames.
+yweweler_3_yweweler_46 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_47, best cost 60.729 + 3035.63 = 3096.36 over 31 frames.
+yweweler_3_yweweler_47 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_48, best cost 64.2103 + 2745.21 = 2809.42 over 29 frames.
+yweweler_3_yweweler_48 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_49, best cost 57.301 + 2345 = 2402.3 over 24 frames.
+yweweler_3_yweweler_49 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_5, best cost 53.4752 + 2954.74 = 3008.21 over 29 frames.
+yweweler_3_yweweler_5 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_6, best cost 60.5299 + 3703.3 = 3763.83 over 35 frames.
+yweweler_3_yweweler_6 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_7, best cost 54.6992 + 2134.64 = 2189.33 over 22 frames.
+yweweler_3_yweweler_7 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_8, best cost 56.6771 + 2532.11 = 2588.78 over 24 frames.
+yweweler_3_yweweler_8 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_3_yweweler_9, best cost 59.3821 + 2892.21 = 2951.59 over 28 frames.
+yweweler_3_yweweler_9 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_0, best cost 64.1527 + 3770.66 = 3834.82 over 39 frames.
+yweweler_4_yweweler_0 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_1, best cost 63.5311 + 3595.01 = 3658.54 over 37 frames.
+yweweler_4_yweweler_1 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_10, best cost 62.8978 + 3413.21 = 3476.11 over 34 frames.
+yweweler_4_yweweler_10 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_11, best cost 58.8103 + 3313.92 = 3372.73 over 32 frames.
+yweweler_4_yweweler_11 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_12, best cost 64.7705 + 4161.25 = 4226.02 over 40 frames.
+yweweler_4_yweweler_12 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_13, best cost 63.026 + 3111.59 = 3174.61 over 31 frames.
+yweweler_4_yweweler_13 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_14, best cost 57.8649 + 2324.86 = 2382.72 over 25 frames.
+yweweler_4_yweweler_14 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_15, best cost 63.6576 + 3395.98 = 3459.64 over 33 frames.
+yweweler_4_yweweler_15 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_16, best cost 57.5066 + 2317.72 = 2375.23 over 25 frames.
+yweweler_4_yweweler_16 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_17, best cost 62.908 + 3129.19 = 3192.09 over 32 frames.
+yweweler_4_yweweler_17 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_18, best cost 58.8747 + 2666.91 = 2725.78 over 29 frames.
+yweweler_4_yweweler_18 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_19, best cost 57.9808 + 2587.27 = 2645.25 over 29 frames.
+yweweler_4_yweweler_19 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_2, best cost 61.2884 + 3107.41 = 3168.7 over 31 frames.
+yweweler_4_yweweler_2 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_20, best cost 58.1868 + 2927.85 = 2986.03 over 30 frames.
+yweweler_4_yweweler_20 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_21, best cost 59.956 + 3251.03 = 3310.98 over 32 frames.
+yweweler_4_yweweler_21 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_22, best cost 54.2502 + 2360.78 = 2415.03 over 25 frames.
+yweweler_4_yweweler_22 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_23, best cost 64.913 + 4069.66 = 4134.57 over 41 frames.
+yweweler_4_yweweler_23 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_24, best cost 58.8054 + 3068.83 = 3127.64 over 32 frames.
+yweweler_4_yweweler_24 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_25, best cost 62.2256 + 3185.32 = 3247.55 over 32 frames.
+yweweler_4_yweweler_25 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_26, best cost 68.0613 + 3476.28 = 3544.34 over 31 frames.
+yweweler_4_yweweler_26 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_27, best cost 64.8751 + 3960.74 = 4025.62 over 39 frames.
+yweweler_4_yweweler_27 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_28, best cost 57.2731 + 2327.03 = 2384.3 over 25 frames.
+yweweler_4_yweweler_28 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_29, best cost 63.5381 + 3271.68 = 3335.22 over 34 frames.
+yweweler_4_yweweler_29 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_3, best cost 56.4605 + 2239.98 = 2296.44 over 25 frames.
+yweweler_4_yweweler_3 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_30, best cost 64.4431 + 3521.77 = 3586.22 over 37 frames.
+yweweler_4_yweweler_30 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_31, best cost 64.5311 + 3891.76 = 3956.29 over 37 frames.
+yweweler_4_yweweler_31 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_32, best cost 60.5023 + 4096.11 = 4156.62 over 41 frames.
+yweweler_4_yweweler_32 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_33, best cost 55.2954 + 2876.15 = 2931.45 over 26 frames.
+yweweler_4_yweweler_33 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_34, best cost 62.7892 + 3831.18 = 3893.97 over 36 frames.
+yweweler_4_yweweler_34 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_35, best cost 66.22 + 4694.79 = 4761.01 over 46 frames.
+yweweler_4_yweweler_35 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_36, best cost 61.9823 + 3235.1 = 3297.08 over 32 frames.
+yweweler_4_yweweler_36 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_37, best cost 68.3621 + 6090.07 = 6158.43 over 59 frames.
+yweweler_4_yweweler_37 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_38, best cost 62.9197 + 3728.57 = 3791.49 over 36 frames.
+yweweler_4_yweweler_38 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_39, best cost 67.9602 + 5174.98 = 5242.94 over 50 frames.
+yweweler_4_yweweler_39 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_4, best cost 60.046 + 3090.47 = 3150.52 over 33 frames.
+yweweler_4_yweweler_4 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_40, best cost 65.43 + 3922.04 = 3987.47 over 39 frames.
+yweweler_4_yweweler_40 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_41, best cost 61.228 + 3139.63 = 3200.86 over 33 frames.
+yweweler_4_yweweler_41 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_42, best cost 60.606 + 2917.87 = 2978.48 over 28 frames.
+yweweler_4_yweweler_42 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_43, best cost 57.7333 + 2530.5 = 2588.24 over 28 frames.
+yweweler_4_yweweler_43 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_44, best cost 64.2963 + 3373.78 = 3438.08 over 34 frames.
+yweweler_4_yweweler_44 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_45, best cost 61.8581 + 3045.63 = 3107.49 over 28 frames.
+yweweler_4_yweweler_45 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_46, best cost 58.5516 + 2713.44 = 2771.99 over 27 frames.
+yweweler_4_yweweler_46 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_47, best cost 63.9579 + 3395.78 = 3459.73 over 34 frames.
+yweweler_4_yweweler_47 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_48, best cost 53.2251 + 2450.11 = 2503.34 over 25 frames.
+yweweler_4_yweweler_48 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_49, best cost 60.4381 + 3308.89 = 3369.32 over 33 frames.
+yweweler_4_yweweler_49 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_5, best cost 59.7791 + 3240.68 = 3300.46 over 31 frames.
+yweweler_4_yweweler_5 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_6, best cost 58.7584 + 3188.74 = 3247.5 over 29 frames.
+yweweler_4_yweweler_6 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_7, best cost 54.0546 + 2504.34 = 2558.4 over 25 frames.
+yweweler_4_yweweler_7 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_8, best cost 52.876 + 1788.33 = 1841.21 over 15 frames.
+yweweler_4_yweweler_8 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_4_yweweler_9, best cost 58.94 + 3393.37 = 3452.31 over 32 frames.
+yweweler_4_yweweler_9 four 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_0, best cost 56.4237 + 2483.84 = 2540.26 over 28 frames.
+yweweler_5_yweweler_0 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_1, best cost 62.8896 + 3738.75 = 3801.64 over 40 frames.
+yweweler_5_yweweler_1 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_10, best cost 65.702 + 4472.21 = 4537.91 over 49 frames.
+yweweler_5_yweweler_10 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_11, best cost 68.4184 + 4730.4 = 4798.81 over 49 frames.
+yweweler_5_yweweler_11 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_12, best cost 63.6227 + 4136.3 = 4199.93 over 42 frames.
+yweweler_5_yweweler_12 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_13, best cost 62.2277 + 3510.35 = 3572.58 over 37 frames.
+yweweler_5_yweweler_13 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_14, best cost 64.6503 + 4380.27 = 4444.92 over 47 frames.
+yweweler_5_yweweler_14 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_15, best cost 68.5535 + 4421.56 = 4490.11 over 48 frames.
+yweweler_5_yweweler_15 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_16, best cost 64.8541 + 4836.57 = 4901.42 over 48 frames.
+yweweler_5_yweweler_16 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_17, best cost 55.6045 + 2240.63 = 2296.23 over 26 frames.
+yweweler_5_yweweler_17 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_18, best cost 56.1771 + 2531.9 = 2588.08 over 27 frames.
+yweweler_5_yweweler_18 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_19, best cost 66.3134 + 3380.69 = 3447 over 38 frames.
+yweweler_5_yweweler_19 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_2, best cost 62.3917 + 3396.59 = 3458.98 over 37 frames.
+yweweler_5_yweweler_2 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_20, best cost 63.4487 + 4109.95 = 4173.39 over 43 frames.
+yweweler_5_yweweler_20 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_21, best cost 69.1672 + 4788.55 = 4857.72 over 50 frames.
+yweweler_5_yweweler_21 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_22, best cost 65.8345 + 4747.52 = 4813.35 over 50 frames.
+yweweler_5_yweweler_22 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_23, best cost 63.3308 + 3969.87 = 4033.21 over 44 frames.
+yweweler_5_yweweler_23 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_24, best cost 62.6346 + 3517.6 = 3580.23 over 39 frames.
+yweweler_5_yweweler_24 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_25, best cost 65.8099 + 4606.25 = 4672.06 over 51 frames.
+yweweler_5_yweweler_25 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_26, best cost 63.5709 + 3847.43 = 3911 over 39 frames.
+yweweler_5_yweweler_26 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_27, best cost 63.6177 + 4149.4 = 4213.02 over 43 frames.
+yweweler_5_yweweler_27 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_28, best cost 68.4412 + 4792.73 = 4861.17 over 48 frames.
+yweweler_5_yweweler_28 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_29, best cost 68.1007 + 4404.3 = 4472.4 over 46 frames.
+yweweler_5_yweweler_29 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_3, best cost 63.1758 + 3694.6 = 3757.78 over 40 frames.
+yweweler_5_yweweler_3 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_30, best cost 63.1434 + 3705.39 = 3768.53 over 40 frames.
+yweweler_5_yweweler_30 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_31, best cost 69.4017 + 4754.41 = 4823.81 over 48 frames.
+yweweler_5_yweweler_31 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_32, best cost 68.304 + 5544.09 = 5612.4 over 56 frames.
+yweweler_5_yweweler_32 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_33, best cost 63.5651 + 3639.43 = 3702.99 over 40 frames.
+yweweler_5_yweweler_33 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_34, best cost 72.9514 + 6021.87 = 6094.82 over 62 frames.
+yweweler_5_yweweler_34 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_35, best cost 67.7587 + 4060.88 = 4128.64 over 44 frames.
+yweweler_5_yweweler_35 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_36, best cost 64.5574 + 4147.41 = 4211.97 over 45 frames.
+yweweler_5_yweweler_36 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_37, best cost 65.331 + 4406.87 = 4472.21 over 48 frames.
+yweweler_5_yweweler_37 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_38, best cost 70.2949 + 5188.69 = 5258.99 over 54 frames.
+yweweler_5_yweweler_38 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_39, best cost 62.235 + 3887.37 = 3949.61 over 41 frames.
+yweweler_5_yweweler_39 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_4, best cost 65.3793 + 4252.32 = 4317.7 over 48 frames.
+yweweler_5_yweweler_4 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_40, best cost 73.0631 + 5839.24 = 5912.3 over 66 frames.
+yweweler_5_yweweler_40 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_41, best cost 64.3697 + 4082.07 = 4146.44 over 48 frames.
+yweweler_5_yweweler_41 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_42, best cost 68.2805 + 4640.33 = 4708.61 over 45 frames.
+yweweler_5_yweweler_42 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_43, best cost 67.7198 + 4243.67 = 4311.38 over 45 frames.
+yweweler_5_yweweler_43 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_44, best cost 63.2609 + 4346.76 = 4410.03 over 44 frames.
+yweweler_5_yweweler_44 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_45, best cost 61.7227 + 3193.42 = 3255.15 over 35 frames.
+yweweler_5_yweweler_45 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_46, best cost 64.6875 + 4477.17 = 4541.86 over 49 frames.
+yweweler_5_yweweler_46 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_47, best cost 64.2502 + 4287.48 = 4351.73 over 46 frames.
+yweweler_5_yweweler_47 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_48, best cost 68.8157 + 4584.86 = 4653.68 over 48 frames.
+yweweler_5_yweweler_48 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_49, best cost 65.1173 + 4420.62 = 4485.73 over 45 frames.
+yweweler_5_yweweler_49 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_5, best cost 61.3156 + 3332.02 = 3393.33 over 36 frames.
+yweweler_5_yweweler_5 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_6, best cost 56.1206 + 2994.09 = 3050.21 over 31 frames.
+yweweler_5_yweweler_6 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_7, best cost 64.3357 + 4076.2 = 4140.54 over 44 frames.
+yweweler_5_yweweler_7 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_8, best cost 62.7384 + 4030.95 = 4093.69 over 42 frames.
+yweweler_5_yweweler_8 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_5_yweweler_9, best cost 68.9103 + 4896.82 = 4965.73 over 51 frames.
+yweweler_5_yweweler_9 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_0, best cost 60.5564 + 3023.49 = 3084.05 over 31 frames.
+yweweler_6_yweweler_0 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_1, best cost 50.9348 + 1381.75 = 1432.69 over 14 frames.
+yweweler_6_yweweler_1 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_10, best cost 19.9936 + 1547.41 = 1567.41 over 14 frames.
+yweweler_6_yweweler_10 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_11, best cost 55.7845 + 2781.44 = 2837.22 over 28 frames.
+yweweler_6_yweweler_11 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_12, best cost 61.111 + 4390.46 = 4451.57 over 43 frames.
+yweweler_6_yweweler_12 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_13, best cost 66.6829 + 3740.06 = 3806.74 over 36 frames.
+yweweler_6_yweweler_13 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_14, best cost 51.4305 + 2312.18 = 2363.61 over 25 frames.
+yweweler_6_yweweler_14 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_15, best cost 55.4158 + 2333.65 = 2389.06 over 23 frames.
+yweweler_6_yweweler_15 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_16, best cost 62.8317 + 4162.05 = 4224.88 over 41 frames.
+yweweler_6_yweweler_16 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_17, best cost 51.6453 + 1293.48 = 1345.13 over 14 frames.
+yweweler_6_yweweler_17 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_18, best cost 59.7707 + 2624.84 = 2684.61 over 26 frames.
+yweweler_6_yweweler_18 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_19, best cost 51.6445 + 1535.08 = 1586.73 over 16 frames.
+yweweler_6_yweweler_19 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_2, best cost 58.0184 + 2089.23 = 2147.25 over 21 frames.
+yweweler_6_yweweler_2 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_20, best cost 56.0577 + 1611.65 = 1667.71 over 16 frames.
+yweweler_6_yweweler_20 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_21, best cost 50.4141 + 1816.73 = 1867.14 over 19 frames.
+yweweler_6_yweweler_21 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_22, best cost 54.8548 + 1957.03 = 2011.88 over 19 frames.
+yweweler_6_yweweler_22 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_23, best cost 49.9777 + 1447.23 = 1497.21 over 15 frames.
+yweweler_6_yweweler_23 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_24, best cost 50.5738 + 2037.12 = 2087.7 over 21 frames.
+yweweler_6_yweweler_24 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_25, best cost 50.5023 + 1565.45 = 1615.95 over 16 frames.
+yweweler_6_yweweler_25 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_26, best cost 52.283 + 1637.37 = 1689.66 over 17 frames.
+yweweler_6_yweweler_26 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_27, best cost 50.7341 + 1801.25 = 1851.99 over 19 frames.
+yweweler_6_yweweler_27 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_28, best cost 50.7576 + 1929.21 = 1979.96 over 21 frames.
+yweweler_6_yweweler_28 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_29, best cost 57.4728 + 3186.76 = 3244.23 over 32 frames.
+yweweler_6_yweweler_29 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_3, best cost 49.4955 + 1208.8 = 1258.29 over 12 frames.
+yweweler_6_yweweler_3 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_30, best cost 56.2156 + 3000.29 = 3056.5 over 29 frames.
+yweweler_6_yweweler_30 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_31, best cost 50.8646 + 2006.36 = 2057.22 over 21 frames.
+yweweler_6_yweweler_31 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_32, best cost 50.4926 + 1650.34 = 1700.83 over 17 frames.
+yweweler_6_yweweler_32 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_33, best cost 55.7631 + 1954.39 = 2010.15 over 20 frames.
+yweweler_6_yweweler_33 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_34, best cost 63.8582 + 4188.18 = 4252.04 over 41 frames.
+yweweler_6_yweweler_34 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_35, best cost 50.5208 + 2557.7 = 2608.22 over 23 frames.
+yweweler_6_yweweler_35 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_36, best cost 56.9041 + 2542.69 = 2599.6 over 26 frames.
+yweweler_6_yweweler_36 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_37, best cost 66.1654 + 4019.27 = 4085.43 over 39 frames.
+yweweler_6_yweweler_37 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_38, best cost 63.4925 + 4272.41 = 4335.9 over 42 frames.
+yweweler_6_yweweler_38 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_39, best cost 61.8258 + 3345.03 = 3406.86 over 32 frames.
+yweweler_6_yweweler_39 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_4, best cost 51.0434 + 1546.5 = 1597.55 over 16 frames.
+yweweler_6_yweweler_4 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_40, best cost 62.3961 + 3842.74 = 3905.13 over 38 frames.
+yweweler_6_yweweler_40 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_41, best cost 61.8755 + 3440.37 = 3502.25 over 33 frames.
+yweweler_6_yweweler_41 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_42, best cost 50.1279 + 1604.08 = 1654.21 over 17 frames.
+yweweler_6_yweweler_42 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_43, best cost 55.1826 + 2076.65 = 2131.84 over 21 frames.
+yweweler_6_yweweler_43 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_44, best cost 53.0311 + 1550.07 = 1603.1 over 16 frames.
+yweweler_6_yweweler_44 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_45, best cost 54.5616 + 2363.35 = 2417.91 over 24 frames.
+yweweler_6_yweweler_45 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_46, best cost 50.7661 + 1945.41 = 1996.18 over 18 frames.
+yweweler_6_yweweler_46 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_47, best cost 54.7814 + 2040.82 = 2095.6 over 20 frames.
+yweweler_6_yweweler_47 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_48, best cost 61.3381 + 3273.88 = 3335.21 over 32 frames.
+yweweler_6_yweweler_48 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_49, best cost 56.1357 + 2796.01 = 2852.14 over 26 frames.
+yweweler_6_yweweler_49 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_5, best cost 57.2815 + 2031.6 = 2088.88 over 22 frames.
+yweweler_6_yweweler_5 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_6, best cost 55.7133 + 2409.14 = 2464.85 over 25 frames.
+yweweler_6_yweweler_6 six 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_7, best cost 55.4405 + 2515.53 = 2570.97 over 25 frames.
+yweweler_6_yweweler_7 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_8, best cost 55.7403 + 2742.22 = 2797.96 over 27 frames.
+yweweler_6_yweweler_8 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_6_yweweler_9, best cost 63.9615 + 3759.52 = 3823.49 over 38 frames.
+yweweler_6_yweweler_9 three 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_0, best cost 60.721 + 3945.82 = 4006.54 over 42 frames.
+yweweler_7_yweweler_0 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_1, best cost 59.4475 + 3522.88 = 3582.33 over 37 frames.
+yweweler_7_yweweler_1 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_10, best cost 59.7756 + 3131.5 = 3191.27 over 34 frames.
+yweweler_7_yweweler_10 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_11, best cost 60.9287 + 2725.11 = 2786.04 over 29 frames.
+yweweler_7_yweweler_11 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_12, best cost 59.0915 + 3116.21 = 3175.3 over 32 frames.
+yweweler_7_yweweler_12 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_13, best cost 60.0529 + 3045.1 = 3105.15 over 34 frames.
+yweweler_7_yweweler_13 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_14, best cost 61.3424 + 2831.82 = 2893.16 over 30 frames.
+yweweler_7_yweweler_14 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_15, best cost 61.9466 + 2582.05 = 2643.99 over 29 frames.
+yweweler_7_yweweler_15 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_16, best cost 58.4502 + 2641.57 = 2700.02 over 29 frames.
+yweweler_7_yweweler_16 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_17, best cost 57.3431 + 2583.32 = 2640.67 over 28 frames.
+yweweler_7_yweweler_17 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_18, best cost 59.3254 + 3089.65 = 3148.98 over 33 frames.
+yweweler_7_yweweler_18 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_19, best cost 59.4125 + 2599.37 = 2658.78 over 29 frames.
+yweweler_7_yweweler_19 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_2, best cost 65.176 + 3822.5 = 3887.67 over 40 frames.
+yweweler_7_yweweler_2 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_20, best cost 60.226 + 3465.76 = 3525.99 over 36 frames.
+yweweler_7_yweweler_20 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_21, best cost 62.4555 + 3606.75 = 3669.21 over 40 frames.
+yweweler_7_yweweler_21 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_22, best cost 58.8528 + 3153.88 = 3212.73 over 34 frames.
+yweweler_7_yweweler_22 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_23, best cost 56.5478 + 2129.45 = 2186 over 23 frames.
+yweweler_7_yweweler_23 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_24, best cost 59.5056 + 3229.43 = 3288.94 over 33 frames.
+yweweler_7_yweweler_24 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_25, best cost 58.5632 + 2700.2 = 2758.76 over 29 frames.
+yweweler_7_yweweler_25 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_26, best cost 65.1164 + 4655.02 = 4720.13 over 47 frames.
+yweweler_7_yweweler_26 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_27, best cost 65.0483 + 3871.84 = 3936.88 over 39 frames.
+yweweler_7_yweweler_27 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_28, best cost 65.0841 + 3922.77 = 3987.86 over 40 frames.
+yweweler_7_yweweler_28 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_29, best cost 57.981 + 2742.02 = 2800 over 31 frames.
+yweweler_7_yweweler_29 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_3, best cost 61.3551 + 3903.58 = 3964.93 over 40 frames.
+yweweler_7_yweweler_3 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_30, best cost 58.2045 + 2959.66 = 3017.87 over 31 frames.
+yweweler_7_yweweler_30 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_31, best cost 56.3374 + 2143.4 = 2199.74 over 24 frames.
+yweweler_7_yweweler_31 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_32, best cost 60.2523 + 3364.78 = 3425.03 over 36 frames.
+yweweler_7_yweweler_32 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_33, best cost 90.6782 + 4739.23 = 4829.91 over 46 frames.
+yweweler_7_yweweler_33 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_34, best cost 90.107 + 4426.25 = 4516.35 over 43 frames.
+yweweler_7_yweweler_34 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_35, best cost 74.9141 + 5106.56 = 5181.47 over 49 frames.
+yweweler_7_yweweler_35 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_36, best cost 60.5656 + 3763.47 = 3824.03 over 39 frames.
+yweweler_7_yweweler_36 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_37, best cost 61.7947 + 3019.56 = 3081.35 over 29 frames.
+yweweler_7_yweweler_37 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_38, best cost 66.6804 + 4257.39 = 4324.07 over 47 frames.
+yweweler_7_yweweler_38 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_39, best cost 64.2401 + 4285.43 = 4349.67 over 47 frames.
+yweweler_7_yweweler_39 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_4, best cost 61.1411 + 3297.79 = 3358.93 over 34 frames.
+yweweler_7_yweweler_4 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_40, best cost 70.7002 + 5295.76 = 5366.46 over 59 frames.
+yweweler_7_yweweler_40 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_41, best cost 66.1695 + 4703.03 = 4769.2 over 52 frames.
+yweweler_7_yweweler_41 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_42, best cost 62.0174 + 3380.13 = 3442.15 over 37 frames.
+yweweler_7_yweweler_42 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_43, best cost 61.2917 + 3486.7 = 3547.99 over 38 frames.
+yweweler_7_yweweler_43 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_44, best cost 68.094 + 4135.35 = 4203.44 over 44 frames.
+yweweler_7_yweweler_44 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_45, best cost 61.5023 + 4003.19 = 4064.7 over 43 frames.
+yweweler_7_yweweler_45 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_46, best cost 61.3966 + 3759.09 = 3820.49 over 39 frames.
+yweweler_7_yweweler_46 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_47, best cost 59.7399 + 2974.78 = 3034.52 over 33 frames.
+yweweler_7_yweweler_47 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_48, best cost 58.3988 + 2884.03 = 2942.43 over 28 frames.
+yweweler_7_yweweler_48 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_49, best cost 58.0816 + 2663.04 = 2721.12 over 31 frames.
+yweweler_7_yweweler_49 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_5, best cost 63.669 + 4517.96 = 4581.63 over 45 frames.
+yweweler_7_yweweler_5 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_6, best cost 56.8154 + 2359.06 = 2415.88 over 24 frames.
+yweweler_7_yweweler_6 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_7, best cost 62.2739 + 3203.78 = 3266.05 over 33 frames.
+yweweler_7_yweweler_7 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_8, best cost 58.5138 + 3111.14 = 3169.65 over 32 frames.
+yweweler_7_yweweler_8 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_7_yweweler_9, best cost 59.3349 + 3182.04 = 3241.37 over 35 frames.
+yweweler_7_yweweler_9 seven 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_0, best cost 52.3918 + 3094.1 = 3146.49 over 30 frames.
+yweweler_8_yweweler_0 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_1, best cost 54.6794 + 3248.22 = 3302.9 over 33 frames.
+yweweler_8_yweweler_1 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_10, best cost 52.2615 + 2794.51 = 2846.77 over 30 frames.
+yweweler_8_yweweler_10 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_11, best cost 52.6985 + 3157.82 = 3210.52 over 33 frames.
+yweweler_8_yweweler_11 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_12, best cost 51.7247 + 2574.98 = 2626.71 over 28 frames.
+yweweler_8_yweweler_12 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_13, best cost 53.629 + 3542.25 = 3595.88 over 37 frames.
+yweweler_8_yweweler_13 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_14, best cost 52.7004 + 2901.45 = 2954.15 over 31 frames.
+yweweler_8_yweweler_14 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_15, best cost 50.9353 + 1988.43 = 2039.36 over 22 frames.
+yweweler_8_yweweler_15 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_16, best cost 50.8567 + 2021.18 = 2072.03 over 24 frames.
+yweweler_8_yweweler_16 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_17, best cost 55.9578 + 2689.36 = 2745.32 over 30 frames.
+yweweler_8_yweweler_17 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_18, best cost 50.6755 + 1972.55 = 2023.22 over 23 frames.
+yweweler_8_yweweler_18 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_19, best cost 51.0148 + 2051.26 = 2102.27 over 23 frames.
+yweweler_8_yweweler_19 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_2, best cost 53.4804 + 2408.05 = 2461.53 over 25 frames.
+yweweler_8_yweweler_2 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_20, best cost 55.8508 + 2588.64 = 2644.49 over 29 frames.
+yweweler_8_yweweler_20 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_21, best cost 51.838 + 2511.14 = 2562.98 over 29 frames.
+yweweler_8_yweweler_21 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_22, best cost 53.4366 + 3458.2 = 3511.64 over 37 frames.
+yweweler_8_yweweler_22 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_23, best cost 51.8997 + 2521.65 = 2573.55 over 28 frames.
+yweweler_8_yweweler_23 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_24, best cost 58.6482 + 3656.53 = 3715.18 over 35 frames.
+yweweler_8_yweweler_24 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_25, best cost 51.8041 + 2507.66 = 2559.46 over 26 frames.
+yweweler_8_yweweler_25 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_26, best cost 58.4376 + 3087.95 = 3146.39 over 31 frames.
+yweweler_8_yweweler_26 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_27, best cost 52.2884 + 2927.4 = 2979.68 over 30 frames.
+yweweler_8_yweweler_27 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_28, best cost 59.5683 + 5159.95 = 5219.51 over 52 frames.
+yweweler_8_yweweler_28 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_29, best cost 54.242 + 2942.62 = 2996.86 over 31 frames.
+yweweler_8_yweweler_29 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_3, best cost 54.3843 + 2941.59 = 2995.97 over 30 frames.
+yweweler_8_yweweler_3 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_30, best cost 53.0162 + 3279.46 = 3332.48 over 34 frames.
+yweweler_8_yweweler_30 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_31, best cost 57.8593 + 3666.57 = 3724.43 over 38 frames.
+yweweler_8_yweweler_31 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_32, best cost 53.7966 + 3529.5 = 3583.3 over 39 frames.
+yweweler_8_yweweler_32 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_33, best cost 53.7618 + 3937.71 = 3991.47 over 39 frames.
+yweweler_8_yweweler_33 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_34, best cost 58.1673 + 4672.3 = 4730.47 over 46 frames.
+yweweler_8_yweweler_34 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_35, best cost 55.8343 + 2835.22 = 2891.05 over 29 frames.
+yweweler_8_yweweler_35 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_36, best cost 51.3676 + 2673.54 = 2724.91 over 27 frames.
+yweweler_8_yweweler_36 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_37, best cost 51.4336 + 2839.13 = 2890.56 over 29 frames.
+yweweler_8_yweweler_37 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_38, best cost 58.1308 + 3309.94 = 3368.07 over 34 frames.
+yweweler_8_yweweler_38 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_39, best cost 59.8224 + 3319.47 = 3379.3 over 33 frames.
+yweweler_8_yweweler_39 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_4, best cost 54.5387 + 2974.65 = 3029.19 over 31 frames.
+yweweler_8_yweweler_4 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_40, best cost 53.0145 + 3398.5 = 3451.51 over 34 frames.
+yweweler_8_yweweler_40 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_41, best cost 52.5039 + 2983.16 = 3035.66 over 32 frames.
+yweweler_8_yweweler_41 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_42, best cost 54.4694 + 3219.62 = 3274.09 over 32 frames.
+yweweler_8_yweweler_42 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_43, best cost 50.7745 + 1995.21 = 2045.98 over 20 frames.
+yweweler_8_yweweler_43 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_44, best cost 53.0298 + 2157.95 = 2210.98 over 23 frames.
+yweweler_8_yweweler_44 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_45, best cost 52.005 + 2693.93 = 2745.94 over 30 frames.
+yweweler_8_yweweler_45 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_46, best cost 54.3776 + 2921.59 = 2975.97 over 31 frames.
+yweweler_8_yweweler_46 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_47, best cost 52.4815 + 2956.32 = 3008.81 over 32 frames.
+yweweler_8_yweweler_47 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_48, best cost 51.6848 + 2666.62 = 2718.31 over 28 frames.
+yweweler_8_yweweler_48 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_49, best cost 51.1827 + 2260.03 = 2311.21 over 23 frames.
+yweweler_8_yweweler_49 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_5, best cost 51.3235 + 2241.16 = 2292.48 over 25 frames.
+yweweler_8_yweweler_5 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_6, best cost 51.3722 + 2238.62 = 2289.99 over 25 frames.
+yweweler_8_yweweler_6 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_7, best cost 51.3722 + 2245.53 = 2296.91 over 25 frames.
+yweweler_8_yweweler_7 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_8, best cost 52.1418 + 2728.07 = 2780.21 over 29 frames.
+yweweler_8_yweweler_8 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_8_yweweler_9, best cost 55.949 + 2657.02 = 2712.97 over 29 frames.
+yweweler_8_yweweler_9 eight 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_0, best cost 54.4046 + 3254.05 = 3308.45 over 34 frames.
+yweweler_9_yweweler_0 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_1, best cost 60.7428 + 3397.44 = 3458.18 over 37 frames.
+yweweler_9_yweweler_1 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_10, best cost 63.7419 + 4046.75 = 4110.49 over 42 frames.
+yweweler_9_yweweler_10 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_11, best cost 65.6845 + 4084.72 = 4150.4 over 42 frames.
+yweweler_9_yweweler_11 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_12, best cost 60.5773 + 3495.87 = 3556.45 over 36 frames.
+yweweler_9_yweweler_12 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_13, best cost 56.1498 + 3541.59 = 3597.74 over 38 frames.
+yweweler_9_yweweler_13 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_14, best cost 61.1213 + 4314.07 = 4375.19 over 43 frames.
+yweweler_9_yweweler_14 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_15, best cost 56.4406 + 3699.74 = 3756.18 over 39 frames.
+yweweler_9_yweweler_15 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_16, best cost 60.6504 + 4188.97 = 4249.62 over 41 frames.
+yweweler_9_yweweler_16 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_17, best cost 55.0389 + 3163.91 = 3218.95 over 34 frames.
+yweweler_9_yweweler_17 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_18, best cost 59.5617 + 3138.73 = 3198.29 over 33 frames.
+yweweler_9_yweweler_18 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_19, best cost 55.4645 + 3167.01 = 3222.47 over 34 frames.
+yweweler_9_yweweler_19 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_2, best cost 64.7223 + 3569.67 = 3634.39 over 38 frames.
+yweweler_9_yweweler_2 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_20, best cost 60.7151 + 3939.19 = 3999.91 over 40 frames.
+yweweler_9_yweweler_20 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_21, best cost 57.1981 + 3712.41 = 3769.61 over 40 frames.
+yweweler_9_yweweler_21 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_22, best cost 60.9403 + 3798.19 = 3859.13 over 41 frames.
+yweweler_9_yweweler_22 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_23, best cost 59.2389 + 4085.61 = 4144.85 over 45 frames.
+yweweler_9_yweweler_23 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_24, best cost 57.046 + 4130.6 = 4187.65 over 45 frames.
+yweweler_9_yweweler_24 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_25, best cost 58.9305 + 3913.08 = 3972.02 over 42 frames.
+yweweler_9_yweweler_25 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_26, best cost 59.8538 + 4537.74 = 4597.59 over 49 frames.
+yweweler_9_yweweler_26 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_27, best cost 67.951 + 3880 = 3947.95 over 39 frames.
+yweweler_9_yweweler_27 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_28, best cost 60.4317 + 3389.04 = 3449.47 over 35 frames.
+yweweler_9_yweweler_28 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_29, best cost 60.5971 + 3251.49 = 3312.09 over 33 frames.
+yweweler_9_yweweler_29 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_3, best cost 61.9465 + 5411.64 = 5473.58 over 53 frames.
+yweweler_9_yweweler_3 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_30, best cost 60.6078 + 3937.54 = 3998.15 over 42 frames.
+yweweler_9_yweweler_30 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_31, best cost 61.2682 + 5301.41 = 5362.68 over 50 frames.
+yweweler_9_yweweler_31 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_32, best cost 57.3631 + 4693.9 = 4751.26 over 46 frames.
+yweweler_9_yweweler_32 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_33, best cost 58.6568 + 4481.92 = 4540.57 over 42 frames.
+yweweler_9_yweweler_33 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_34, best cost 56.7286 + 4536.62 = 4593.35 over 41 frames.
+yweweler_9_yweweler_34 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_35, best cost 58.2039 + 4532.85 = 4591.05 over 43 frames.
+yweweler_9_yweweler_35 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_36, best cost 57.9818 + 4450.17 = 4508.15 over 44 frames.
+yweweler_9_yweweler_36 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_37, best cost 58.5627 + 3242.88 = 3301.44 over 33 frames.
+yweweler_9_yweweler_37 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_38, best cost 56.2031 + 3211.78 = 3267.98 over 34 frames.
+yweweler_9_yweweler_38 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_39, best cost 60.0107 + 3462.04 = 3522.05 over 37 frames.
+yweweler_9_yweweler_39 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_4, best cost 58.0721 + 3810.29 = 3868.37 over 40 frames.
+yweweler_9_yweweler_4 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_40, best cost 55.6031 + 3316.62 = 3372.23 over 35 frames.
+yweweler_9_yweweler_40 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_41, best cost 61.5987 + 3907.93 = 3969.53 over 41 frames.
+yweweler_9_yweweler_41 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_42, best cost 61.1379 + 3963.93 = 4025.07 over 42 frames.
+yweweler_9_yweweler_42 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_43, best cost 55.8933 + 3676.22 = 3732.11 over 38 frames.
+yweweler_9_yweweler_43 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_44, best cost 60.0299 + 3114.83 = 3174.86 over 31 frames.
+yweweler_9_yweweler_44 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_45, best cost 60.9821 + 3994.43 = 4055.41 over 40 frames.
+yweweler_9_yweweler_45 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_46, best cost 58.8963 + 3455.87 = 3514.76 over 36 frames.
+yweweler_9_yweweler_46 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_47, best cost 61.0217 + 4097.75 = 4158.77 over 41 frames.
+yweweler_9_yweweler_47 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_48, best cost 60.5094 + 3432.52 = 3493.03 over 36 frames.
+yweweler_9_yweweler_48 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_49, best cost 59.5974 + 3500.03 = 3559.63 over 36 frames.
+yweweler_9_yweweler_49 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_5, best cost 58.5781 + 3364.76 = 3423.34 over 34 frames.
+yweweler_9_yweweler_5 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_6, best cost 60.4335 + 3425.24 = 3485.67 over 33 frames.
+yweweler_9_yweweler_6 one 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_7, best cost 56.4735 + 3313.27 = 3369.74 over 33 frames.
+yweweler_9_yweweler_7 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_8, best cost 61.1773 + 3617.92 = 3679.1 over 38 frames.
+yweweler_9_yweweler_8 five 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:99) For utterance yweweler_9_yweweler_9, best cost 57.8196 + 4022.51 = 4080.33 over 42 frames.
+yweweler_9_yweweler_9 nine 
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:124) Overall cost per frame is 99.9101 = 1.77602 [graph] + 98.1341 [acoustic] over 16712 frames.
+LOG (lattice-best-path[5.0.62~1-68cee]:main():lattice-best-path.cc:128) Done 500 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon May 30 15:35:40 IST 2022, elapsed time 1 seconds

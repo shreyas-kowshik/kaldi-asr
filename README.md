@@ -318,4 +318,83 @@ The `wer_*` files are computed in `local/score.sh`. It reads lattices saved to `
 
 Viewing all `wer_*` files : ` grep WER exp/mono/decode/wer_*`
 
-See lectures 3 and 4 as and when need arises.
+See lectures 3 and 4 code details as and when need arises.
+
+### Lecture 3
+
+Simplest model for context dependency : Build separate model for each triphone context : N^3 models to train thus too many parameters
+
+Generally train a monophone model. After this use it align a lot of data (if more available than training then do it) and use these alignemnts to initialise triphone model.
+
+Summary statistics for the triphones are obtained and decision tree is constructed by obtaining splits that increase the log likelihood thus clustering states.
+
+### Lecture 4
+
+
+Viterbi with beam pruning : Beam-pruning accesses the frames one by one and prunes away states with score worse than best-score minus beam. For reasonable beam values this gives good results.
+
+```
+$ less scripts/decode.sh
+#!/bin/bash
+# This is somewhat simplified:
+script=$1
+decode_dir=$2
+# (1) Make the decoding graph
+scripts/mkgraph.sh data/lang_test $dir $dir/graph
+# (2) Decode the various different test sets (of Resource Management)
+for test in mar87 oct87 feb89 oct89 feb91 sep92; do
+ $script $dir data/test_$test data/lang $decode_dir_1/$test &
+done
+```
+
+Language models used with backoff and ARPA formats.
+ARPA Format : https://cmusphinx.github.io/wiki/arpaformat/#:~:text=Statistical%20language%20describe%20probabilities%20of,text%20format%20called%20ARPA%20format.
+
+3 extra tokens in vocabular : `<s>` sentence begin, `</s>` sentence end, `<unk>` unknown word
+In a N-gram language model, generally all N-1 grams have a backoff weight associated with them.
+Katz Backoff Smoothing : https://www.cse.iitb.ac.in/~pjyothi/cs753/slides/lecture10.pdf
+Basic Idea : If N-gram counts are not available then use backoff weight for N-1 gram, if again not available then go for N-2 gram and so on recursively till value found.
+
+General ARPA format :
+
+```
+P(N-gram sequence) sequence BP(N-gram sequence)
+```
+
+In general probabilities replaced by log_base10 values.
+
+Example :
+
+```
+\data\
+ngram 1=7
+ngram 2=7
+
+\1-grams:
+-1.0000 <unk> -0.2553
+-98.9366 <s>   -0.3064
+-1.0000 </s>   0.0000
+-0.6990 wood   -0.2553
+-0.6990 cindy -0.2553
+-0.6990 pittsburgh    -0.2553
+-0.6990 jean   -0.1973
+
+\2-grams:
+-0.2553 <unk> wood
+-0.2553 <s> <unk>
+-0.2553 wood pittsburgh
+-0.2553 cindy jean
+-0.2553 pittsburgh cindy
+-0.5563 jean </s>
+-0.5563 jean wood 
+
+\end\
+```
+
+We actually don’t do Viterbi, we generate
+“lattices” (a graph-based record of the most likely
+utterances)
+These are later rescored at various acoustic
+weights, and we pick the best.
+The option for the acoustic scale during lattice
+generation only affects pruning behavior.
